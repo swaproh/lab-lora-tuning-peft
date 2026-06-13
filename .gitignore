@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Hugging Face / PEFT output folders
+peft_lab_outputs/
+checkpoint-50/
+lora_model/
+
+# Model weight files
+*.bin
+*.pt
+*.safetensors
+
+# Trainer logs
+runs/
+logs/
+
+# Temporary files
+*.pkl
+*.pickle
+
+# Virtual environments
+ml_labs/
+venv/
+.env/
